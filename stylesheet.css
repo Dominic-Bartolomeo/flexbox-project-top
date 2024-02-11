@@ -1,7 +1,10 @@
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
 }
 
 a {
@@ -15,6 +18,7 @@ ul {
     gap: 24px;
 }
 
+/* Top-Fourth */
 .top-fourth{
     display: flex;
     flex-direction: column;
@@ -23,26 +27,28 @@ ul {
     margin: 0;
     padding: 0;
     color: white;
-    min-height: 650px;   
-    font-family: Roboto, sans-serif;
+    min-height: 650px;      
 }
 
-.header, .top-content {
-    margin-left: 200px;
-    margin-right: 200px;
+.header, .top-fourth-content {
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 150px;
     padding: 8px;
 }
 
 .top-content {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 6px;
+    flex-basis: 50%;
 }
 
 .hero-text {
@@ -50,7 +56,6 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     flex-wrap: wrap;
-    margin-right: auto; 
     width: 350px;
 }
 
@@ -61,6 +66,8 @@ ul {
 
 .logo {
     font-size: 24px;
+    font-weight: bolder;
+    padding: 8px;
     color: #F9FAF8
 }
 
@@ -72,6 +79,7 @@ ul {
     height: 250px;
     width: 550px;
     margin-left: auto;
+    flex-shrink: 0;
 }
 
 .sign-up {
@@ -84,18 +92,64 @@ ul {
     height: 50px;
     width: 150px;
     justify-content: center;
-    align-items: center;
-    margin-right: auto;
-    margin-left: -456px; 
-    margin-top: -50px;
-    align-self: flex-start;
-    
+    align-items: center;   
 }
 
 .text {
-    display: inline-flex;
+    /* display: inline-flex; */
     flex-wrap: nowrap;
     width: 450px;
-    margin-top: -125px; 
     height: auto;
 }
+
+.top-fourth-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Top-middle-fourth */
+
+.top-middle-fourth {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.info {
+    display: flex;
+    padding: 32px;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.sq {
+    width: 175px;
+    height: 175px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sqtext {
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 18px;
+    color: lightgray;
+}
+
+
