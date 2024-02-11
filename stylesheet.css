@@ -111,8 +111,8 @@ ul {
 /* Top-middle-fourth */
 
 .top-middle-fourth {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .info {
@@ -140,13 +140,13 @@ ul {
     height: 175px;
     border: 3px solid #3882F6;
     border-radius: 12px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .sqtext {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     max-width: 200px;
     font-size: 18px;
     color: lightgray;
