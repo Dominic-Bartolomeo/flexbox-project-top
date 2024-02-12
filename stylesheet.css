@@ -96,7 +96,6 @@ ul {
 }
 
 .text {
-    /* display: inline-flex; */
     flex-wrap: nowrap;
     width: 450px;
     height: auto;
@@ -111,8 +110,8 @@ ul {
 /* Top-middle-fourth */
 
 .top-middle-fourth {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 .info {
@@ -140,16 +139,106 @@ ul {
     height: 175px;
     border: 3px solid #3882F6;
     border-radius: 12px;
-    /* flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
 }
 
 .sqtext {
-    /* flex-wrap: wrap; */
     max-width: 200px;
     font-size: 18px;
     color: lightgray;
 }
 
+/* Bottom Middle Fourth  */
 
+.bottom-middle-fourth {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB ;
+}
+
+.quote-container {
+    margin-right: 600px;
+    margin-left: 600px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F293780;
+    min-width: 300px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.author {
+    display: flex;
+    font-weight: bold ;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
+/* Bottom Fourth */
+
+.bottom-fourth {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.blue-square {
+    
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 150px;
+    color: white;
+    border-radius: 8px;
+}
+
+.bt-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.cta {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/* .bsq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+} */
+
+.bt-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 150px;
+    border-color: white;  
+    background-color: #3882F6;  
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: 3px solid white;
+    margin-top: 50px;
+    margin-right: 100px;
+}
